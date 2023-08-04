@@ -1,7 +1,8 @@
 # flutter_toonflix
 
-네이버 웹툰 Unofficial API
-==============================
-- `/today` : Returns today's comics.
-- `/:id` : Returns a comic's information by `/:id`
-- `/:id/episodes` : Returns the lastest eousides for a comic
+### http패키지 설치 방법
+- pub.dev : flutter나 dart의 공식 패키지 보관소
+<br>
+
++ pub.dev에서 http 검색
++ intalling탭에서 설치 방법 확인

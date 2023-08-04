@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_toonflix/screens/home_screen.dart';
+import 'package:flutter_toonflix/services/api_service.dart';
 
 void main() {
-  runApp(const MyApp());
+  ApiService().getTodaysToons;
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   // This widget is the root of your application.
   @override
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Container(),
+      home: const HomeScreen(),
     );
   }
 }
